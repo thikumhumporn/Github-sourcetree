@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>แปลงหน่วยความยาว</h1>
+        <input id="inputvalue" type="number"/>
+        <select name="option" id="form">
+            <option value="Centimeters">Centimeters</option>
+            <option value="Inchers">Inches</option>
+            <option value="Meter">Meter</option>
+            <option value="Kilometer">Kilometer</option>
+        </select>
+        <select name="option" id="to">
+            <option value="Centimeters">Centimeters</option>
+            <option value="Inchers">Inches</option>
+            <option value="Meter">Meter</option>
+            <option value="Kilometer">Kilometer</option>
+        </select>
+        <input  type="number" id="result" disabled>
+
+        <button onclick="convert()"> Convert </button>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

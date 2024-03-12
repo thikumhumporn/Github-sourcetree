@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>แลกเปลี่ยนสกุลเงิน</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>แลกเปลี่ยนสกุลเงิน</h1>
+                 <label for="form" class="label">Form
+                <select name="option" id="form">
+                    <option value="USD">USD - Us Dollar</option>
+                    <option value="THB">THB - Thai Bath</option>
+                    <option value="LAK">LAK - Lao Kip</option>
+                    <option value="JPY">JPY - Japanese Yen</option>
+                    <option value="CNY">CNY - Chinese Yuan Renminbi</option>
+                    <option value="VND">VND - Vietnames Dong</option>
+                </select>
+            </label>
+        <input class="label" type="text" id="input">
+    
+            <select name="option" id="to">
+                <option value="USD">USD - Us Dollar</option>
+                <option value="THB">THB - Thai Bath</option>
+                <option value="LAK">LAK - Lao Kip</option>
+                <option value="JPY">JPY - Japanese Yen</option>
+                <option value="CNY">CNY - Chinese Yuan Renminbi</option>
+                <option value="VND">VND - Vietnames Dong</option>
+            </select>
+        
+        <input class="label" type="text" id="output" disabled>
+        <button onclick="convertCurrency()"> Convert </button>
+     
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
